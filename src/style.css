@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+    --red: hsl(14, 86%, 42%);
+    --white: hsl(0, 0%, 100%);
+
+    --primary: hsl(200, 13%, 23%);
+    --secondary: hsl(204, 77%, 26%);
+
+    --font-size-100: 0.5rem;
+    --font-size-200: 0.75rem;
+    --font-size-300: 0.95rem;
+    --font-size-300: 1rem;
+    --font-size-500: 1.2rem;
+    --font-size-600: 1.5rem;
+    --font-size-700: 2rem;
+    --font-size-800: 2.5rem;
+
+    --font-weight-normal: 500;
+    --font-weight-bold: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+body {
+    font-family: "Inter", system-ui, sans-serif;
+}
+
+.navbar__list {
+    display: flex;
+    justify-content: center;
+    font-size: var(--font-size-200);
+    line-height: 4rem;
+    gap: 2rem;
+}
+
+.navbar__link:hover {
+    text-decoration-line: underline;
+    color: var(--secondary);
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.hero__name,
+.hero__aspiring {
+    color: var(--primary);
+}
+
+.hero__name {
+    font-size: var(--font-size-800);
+    font-weight: var(--font-weight-bold);
+}
+
+.hero__aspiring {
+    margin-top: 0.5rem;
+    font-size: var(--font-size-500);
+}
+
+.hero__motivation {
+    margin-top: 1rem;
+}
+
+.hero__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github,
+.linkedIn,
+.facebook {
+    width: 15%;
+    margin-top: 0.75rem;
+}
+
+.content {
+    max-width: 1180px;
+    margin: auto;
+}
+
+.content__about {
+    margin-bottom: 6rem;
+}
+
+.content__first-row,
+.content__second-row {
+    display: flex;
+    gap: 2rem;
+}
+
+.content__title {
+    margin-bottom: 1.5rem;
+}
+
+.content__introduction {
+    width: 100%;
+}
+.content__part {
+    color: var(--secondary);
+    font-size: var(--font-size-400);
+    font-weight: var(--font-weight-normal);
+    margin-bottom: 1rem;
+}
+
+.content__text {
+    margin-bottom: 2rem;
+    line-height: 1.3rem;
+}
+
+.technology__title {
+    color: var(--primary);
+    font-size: var(--font-size-600);
+}
+
+.technology__text {
+    color: var(--primary);
+    margin-block: 1rem;
+}
+
+.technology__stack-name {
+    font-size: var(--font-size-500);
+}
+
+.technology__stacks {
+    display: flex;
+    flex-direction: column;
+}
+
+.technology__stacks {
+    width: 100%;
+}
+.html,
+.css,
+.javascript,
+.php {
+    width: 5%;
+}
