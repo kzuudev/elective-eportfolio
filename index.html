@@ -7,19 +7,41 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <header>
+        <header id="header">
             <nav class="navbar">
                 <ul class="navbar__list">
-                    <li class="navbar__link">Home</li>
-                    <li class="navbar__link">About</li>
-                    <li class="navbar__link">Projects</li>
-                    <li class="navbar__link">Expectations</li>
-                    <li class="navbar__link">Deliverables</li>
+                    <li class="navbar__link">
+                        <a href="#hero" onclick="handleSmoothScroll(event)"
+                            >Home</a
+                        >
+                    </li>
+                    <li class="navbar__link">
+                        <a href="#content" onclick="handleSmoothScroll(event)"
+                            >About</a
+                        >
+                    </li>
+                    <li class="navbar__link">
+                        <a href="#projects" onclick="handleSmoothScroll(event)"
+                            >Projects</a
+                        >
+                    </li>
+                    <li class="navbar__link">
+                        <a
+                            href="#expectations"
+                            onclick="handleSmoothScroll(event)"
+                            >Expectations</a
+                        >
+                    </li>
+                    <li class="navbar__link">
+                        <a href="#home" onclick="handleSmoothScroll(event)"
+                            >Deliverables</a
+                        >
+                    </li>
                 </ul>
             </nav>
         </header>
 
-        <section class="hero">
+        <section id="hero">
             <h1 class="hero__name">Hi, I'm John Kevin T. Dela Cruz</h1>
             <h2 class="hero__aspiring">
                 Aspiring Software Engineer & Full Stack Developer
@@ -72,7 +94,7 @@
             </div>
         </section>
 
-        <main class="content">
+        <main id="content">
             <div class="content__about">
                 <h3 class="content__title">ABOUT</h3>
                 <div class="content__first-row">
@@ -249,7 +271,7 @@
                                         src="/assets/images/asana-logo.svg"
                                         alt=""
                                     />
-                                    <p class="technology__name">asana</p>
+                                    <p class="technology__name">Asana</p>
                                 </li>
                             </div>
                         </ul>
@@ -257,7 +279,7 @@
                 </div>
             </div>
 
-            <div class="projects">
+            <div id="projects">
                 <div class="projects__first-row">
                     <h4 class="project__title">PROJECTS</h4>
 
@@ -299,7 +321,7 @@
                 </div>
             </div>
 
-            <div class="expectations">
+            <div id="expectations">
                 <h5 class="expectations__title">Expectations</h5>
 
                 <p class="expectations__text">
@@ -321,10 +343,10 @@
                     data mining, statistics, modeling, machine learning, and
                     artificial intelligence. During the orientation, I became
                     highly interested in learning about
-                    <b>Artificial Intelligence (AI)</b>how to use it effectively
-                    and even how to develop AI systems. By mastering these
-                    topics, I am certain that my data science skills will be
-                    significantly enhanced, allowing me to apply them
+                    <b>Artificial Intelligence (AI)</b> how to use it
+                    effectively and even how to develop AI systems. By mastering
+                    these topics, I am certain that my data science skills will
+                    be significantly enhanced, allowing me to apply them
                     effectively in real-world scenarios.
                 </p>
             </div>
@@ -337,4 +359,5 @@
             </p>
         </footer>
     </body>
+    <script src="script.js"></script>
 </html>
