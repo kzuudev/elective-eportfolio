@@ -1,5 +1,3 @@
-const navbar = document.querySelector(".navbar__list");
-
 function handleSmoothScroll(e) {
     e.preventDefault();
 
@@ -12,6 +10,4 @@ function handleSmoothScroll(e) {
             element.scrollIntoView({ behavior: "smooth" });
         }
     }
-
-    // navbar.style.position = "fixed";
 }
