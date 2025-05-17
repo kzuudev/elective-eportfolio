@@ -123,3 +123,13 @@ body {
     font-size: var(--font-size-500);
 
 }
+
+
+.link {
+    width: 50%;
+}
+
+#link {
+    width: 10%;
+    height: 10%;
+}
