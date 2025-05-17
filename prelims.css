@@ -122,3 +122,11 @@ body {
     font-size: var(--font-size-500);
 
 }
+
+
+
+
+.link, #links, #a-link {
+    width: 1%;
+}
+
