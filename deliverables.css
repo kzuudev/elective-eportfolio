@@ -77,18 +77,23 @@ body {
     gap: 6em;
 }
 
-.navbar_link {
+.navbar__link {
    width: 100%;
 }
 
+.navbar__link:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
 
 #prelim, #midterm, #final {
     padding-block: 4em;
     padding-inline: 2em;
-    background-color: var(--red);
+    background-color: var(--white);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
     border-radius: .5rem;
 }
-
 
 
 .footer {
