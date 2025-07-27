@@ -41,6 +41,11 @@ li {
 a {
     text-decoration: none;
 }
+
+h4 {
+    z-index: 1;
+}
+
 body {
     font-family: "Inter", system-ui, sans-serif;
     cursor: pointer;
@@ -50,6 +55,7 @@ body {
     position: sticky;
     top: 0;
     background-color: var(--white);
+    z-index: 0;
 }
 .navbar__list {
     display: flex;
@@ -57,11 +63,13 @@ body {
     font-size: var(--font-size-200);
     line-height: 4rem;
     gap: 2rem;
+    z-index: 0;
 }
 
 .navbar__link:hover {
     text-decoration-line: underline;
     color: var(--secondary);
+    z-index: 0;
 }
 
 #hero {
