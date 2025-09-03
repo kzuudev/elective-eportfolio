@@ -1,0 +1,136 @@
+
+:root {
+    --red: hsl(14, 86%, 42%);
+    --white: hsl(0, 0%, 100%);
+
+    --primary: hsl(200, 13%, 23%);
+    --secondary: hsl(204, 77%, 26%);
+
+    --pj-links-color: hsl(205, 50%, 95%);
+    --pj-title-color: hsl(240 10% 3.9%);
+
+    --font-size-100: 0.5rem;
+    --font-size-200: 0.75rem;
+    --font-size-300: 0.95rem;
+    --font-size-300: 1rem;
+    --font-size-500: 1.2rem;
+    --font-size-600: 1.5rem;
+    --font-size-700: 2rem;
+    --font-size-800: 2.5rem;
+
+    --font-weight-normal: 500;
+    --font-weight-bold: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    z-index: 1;
+}
+
+body {
+    font-family: "Inter", system-ui, sans-serif;
+    cursor: pointer;
+}
+
+.link {
+    padding-block: 3em;
+    padding-inline: 4em;
+}
+
+#links {
+    display: flex;
+    gap: .45em;
+}
+
+#a-links {
+    width: 15px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 18em;
+}
+
+
+.link {
+    padding-block: 1em;
+    padding-inline: 3em;
+}
+
+#links {
+    display: flex;
+    text-wrap: nowrap;
+    gap: .5em;
+}
+
+#a-links {
+    width: 12px;
+}
+
+
+.prelim__exercises {
+  display: flex;
+  flex-direction: column;
+  margin-top: 9em;
+  gap: 4rem;
+}
+
+.exercises__item-1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exercises__item-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+}
+
+/* .exercises__link {
+    width: 100%;
+} */
+
+.exercises__link a {
+    width: 420px;
+    display: block;
+    text-align: center;
+    padding-block: 4em;
+    padding-inline: 2em;
+    background-color: var(--white);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: .5rem;
+}
+
+.exercises__link:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.exercises__link > a {
+    font-weight: var(--font-weight-bold);
+    
+}

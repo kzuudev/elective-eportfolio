@@ -69,7 +69,6 @@ body {
 .navbar__link:hover {
     text-decoration-line: underline;
     color: var(--secondary);
-    z-index: 0;
 }
 
 #hero {
