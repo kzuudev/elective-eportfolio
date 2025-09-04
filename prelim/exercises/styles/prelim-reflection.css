@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Rubik */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+
+/* Outfit */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap");
+
+/* Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+/* Space Grotesk */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
 
 :root {
     --red: hsl(14, 86%, 42%);
@@ -41,33 +56,9 @@ a {
     text-decoration: none;
 }
 
-h4 {
-    z-index: 1;
-}
-
 body {
     font-family: "Inter", system-ui, sans-serif;
     cursor: pointer;
-}
-
-.link {
-    padding-block: 3em;
-    padding-inline: 4em;
-}
-
-#links {
-    display: flex;
-    gap: .45em;
-}
-
-#a-links {
-    width: 15px;
-}
-
-.wrapper {
-  display: flex;
-  justify-content: center;
-  margin: 18em;
 }
 
 
@@ -86,48 +77,14 @@ body {
     width: 12px;
 }
 
-
-.prelim__exercises {
-  display: flex;
-  flex-direction: column;
-  margin-top: 9em;
-  gap: 4rem;
+.content {
+    margin-inline: 4rem;
+    margin-block: 3rem;
 }
 
-.exercises__item-1 {
+.prelim__reflection {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.exercises__item-2 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4em;
-}
-
-.exercises__link a {
-    width: 420px;
-    display: block;
-    text-align: center;
-    padding-block: 4em;
-    padding-inline: 2em;
-    background-color: var(--white);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
-    border-radius: .5rem;
-}
-
-.exercises__link:hover {
-    transform: scale(1.05) translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-}
-
-.exercises__link > a {
-    font-weight: var(--font-weight-bold);
+    margin-top: 4em;
 }
 
 .reflection__title {
@@ -143,12 +100,14 @@ body {
     gap: 1em;
 }
 
-
 .exercise__img-container {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
 }
 
 .prelim-img {
-   width: 100%;
+   width: 1050px;
 
 }

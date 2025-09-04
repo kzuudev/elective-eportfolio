@@ -126,7 +126,6 @@ body {
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-
 .link {
     padding-block: 1em;
     padding-inline: 3em;
@@ -164,10 +163,6 @@ body {
     justify-content: center;
     gap: 4em;
 }
-
-/* .exercises__link {
-    width: 100%;
-} */
 
 .exercises__link a {
     width: 400px;
