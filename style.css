@@ -273,7 +273,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-bottom: 8rem;
+    margin-bottom: 2rem;
 }
 
 .expectations__title {
@@ -282,8 +282,30 @@ body {
     margin-bottom: 2.8rem;
 }
 
+
 .expectations__text {
     line-height: 1.3rem;
+    
+}
+
+#reference {
+    margin-bottom: 8rem;
+}
+
+.reference__title {
+    color: var(--primary);
+    font-size: var(--font-size-500);
+}
+
+.reference__container {
+    width: 100%;
+}
+
+.reference__text {
+    font-size: var(--font-size-400);
+    margin-top: 1em;
+    word-break: break-all;
+   
 }
 
 .footer {
