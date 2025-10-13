@@ -98,6 +98,12 @@ body {
     justify-content: center;  
     gap: 2em;
 }
+
+.exercises__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .exercise__files-download {
     display: flex;
     flex-direction: column;
