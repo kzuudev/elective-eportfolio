@@ -103,7 +103,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1em;
 }
+
 .exercise__files-download {
     display: flex;
     flex-direction: column;
