@@ -22,47 +22,53 @@
                 <img class="exercise2__img" src="./images/Final Project Proposal/Final Project Proposal PPT.png" alt="">
             </div>
 
+            <div class="exercise__files-download">
 
-                <div class="exercise__files-download">
+                <a href="https://docs.google.com/document/d/1_m9p0V7JtqOuJguPTTW24EBC67uC_SEKO9B3ZSum-04/edit?usp=sharing" target="_blank">
+                    Question and Answering IEEE Paper (.docx)
+                </a>
 
-                    <a href="./download-files/" download>
-                        Exercise 4 IEEE Paper (.docx)
-                    </a>
+                <a href="https://colab.research.google.com/drive/1C_ChHqihVtaXzuJPwKf-MrdxUuBCpKrl?usp=sharing" target="_blank">
+                    Question and Answering using BERT (.ipynb)
+                </a>
 
-                    <a href="./download-files/" download>
-                        Exercise 4 IPYNB (.ppt)
-                    </a>
+                <a href="https://docs.google.com/presentation/d/12zOwu81UXQab_5R1L3iNsnrrgZ2gB-6KSrDQXR9wVdo/edit?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPNDM3NjI2MzE2OTczNzg4AAEe6_MLAwes_4V__weXt0aMP2kADCuyeIvdvIdIV5Kn-3gi3La8rRreKInfLs8_aem_5VjenRCez6UtDsZHWEgA_A&slide=id.p1#slide=id.p1" target="_blank">
+                    Question and Answering PPT (.ppt)
+                </a>
 
-                    <a href="./download-files/" download>
-                        Exercise 4 Grid Search Experimentation Logs (.xlsx)
-                    </a>
+                <a href="https://docs.google.com/spreadsheets/d/1yaaGinmSGlCBHc2Ac4FAPspnSZE7243IniLgsqYVBFw/edit?usp=sharing" target="_blank">
+                    Question and Answering Experiment Logs (.xlsx)
+                </a>
+            </div>
 
-                </div>
-          
             <div class="exercise__reflection">
                 <div class="exercise__first-row">
                     <h2 class="exercise__title">Exercise F4: <span>Final Project Submission - Question and Answering (Week 17)</span></h2>
 
                     <ul class="exercise1__learnings">
                         <li>
-                            Throughout this exercise, I gained valuable experince in applying the theoretical knowledge to a real-world educational setting. Our group proposed an Educational Question and Answering system using the BERT model, aimed at helping students improve their understanding of Machine Learning concepts at their own pace. Turning this idea into a concrete study allowed me to see how classroom theories can be transformed into practical solutions.
+                            This final project has been the most challenging experience for me, as it involved the full implementation of our Educational Question and Answering system using the final BERT model. During the process, I learned the importance of selecting a suitable pre-trained BERT model for question answering. The BERT-base-uncased model greatly streamlined our workflow because it is already optimized for Q&A pipelines. In addition, we fine-tuned the model using our annotated dataset, which contains machine learning–related knowledge. Through this fine-tuning process, the model was effectively adapted and specialized for our specific task—Educational Question and Answering within the education domain.
                         </li>
 
         
                         <li>
-                            <b>Gathering Enough Dataset:</b> Based on our experience, one of the challenges that we encountered was collecting sufficient data for our Educational Question and Answering system. From the planning to implementation, we worked trogether to overcome these challenges especially in gathering enough reliable data. We collected information from the module provided by Dr. Rodolfo Raga Jr. and with his approval, we supplemented it through web scraping from credible sources to ensure our dataset was both valid and sufficient.
+                            After fine-tuning the selected model, we proceeded to enhance its performance by applying the optimal hyperparameters identified in our previous activities, such as the number of epochs, batch size, and learning rate. This hyperparameters played a crucial role in improving the accuracy and reliability of our Question and Answering system. By carefully adjusting and validating these configurations, we were able to ensure that the model performed efficiently and delivered more precise results.
                         </li>
 
                         <li>
-                            <b>Structured the Data:</b> After collecting enough data, organizing the dataset was another crucial step. By structuring our data in Excel with clear columns such as ID, Title, Context, Quiz/Exam Question, and Quiz/Exam Answer, we were able to streamline our workflow. This organized format guided us in implementing the dataset in Google Colab and building the necessary logic for our model.
+                            Moreover, I gained a deeper understanding of how BERT accurately identifies the start and end positions of answers within a given contetxt. During the final implementation, I created and applied custom helper functions, specifically preparing semantic labels and tokenizing and aligning it to ensure that BERT could correctly align the annotated answers with their corresponding token positions.
                         </li>
                         
                         <li>
-                            <b>During Presentation</b> Finally, presenting our study proposal was an eye-opening experience. It helped me build confidence in speaking in front of a large audience, including my professor. Through this process, I discovered my potential for leadership and learned the importance of clear communication, teamwork, and thorough preparation in research-based projects.
+                          Through the preparting semantic labels stage, I learned how to enhance answer span detection by combinationg exact string matching with semantic similarity techniques using SentenceTransformer. This allowerd the model to locate answers even when the wording did not match perfectly. Meanwhile, the tokenize and align stage helped me understand how BERT handles long context using a sliding window, and how token offsets are mapped to the correct start and end positions. By aligning these positions precisely, the model can be trained more effectively for Question and Answering.  
                         </li>
                 
                         <li>
-                            <b>Overall</b>, this first final exercise is just the tip of the iceberg for me. At first, I doubted myself and my ability to lead our final project and turn our idea into a real-world application. However, through collaboration and brainstorming with my groupmates, we were able to transform a theoretical research concept into a practical solution for an education problem, specifically to Machine Learning Course. From planning and structuring our approach to executing each step with purposem this experience and learnings allowed me to grow both academically and personally. It marked the beginning of my confidence as leader and strengthened my belief that I am capable of contributing meaningfully to real-world projects.
+                            To assess the effectives of our Question and Answering system, I learned to apply difference performance metrics such as training loss, validation loss, F1 Score, Exact Match, and Average Inference Time. Through this process, I realized how important these metrics are in determining whether a model is reliable and accurate enough for real use. This helped me appreciate the value of proper model evaluation, and it gave me more confidence in understanding how to evaluate the quality of our QnA system before deploying it in actual educational tasks.
+                        </li>
+
+                        <li>
+                            Reflecting on this, I gained a valuable knowledge about how systematic evaluation and hyperparameter tuning directly affect model performance, reliability, and usability. These skills are highly relevant to my future carrer as an IT professional, especially in roles related to ML Engineering, Data Engineering, or Data Scienctist. Being able to assess models throughly, optimize them efficiently, and balance performance with resource constraints is essential for deploying production-ready machine learning systems. Moreover, this experience strengthened my problem-solving skills and ability to adapt techniques to real-world constraints, which are critical competencies in any IT career.
                         </li>
                     </ul>
                 </div>
