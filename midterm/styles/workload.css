@@ -101,7 +101,7 @@ body {
     justify-content: center;
 }
 
-.exercises__item-2 {
+.exercises__item-2, .exercises__item-3 {
     width: 100%;
     display: flex;
     align-items: center;

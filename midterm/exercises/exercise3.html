@@ -22,31 +22,40 @@
                 <img class="exercise3-1__img" src="./images/exercise-3.1.png" alt="">
             </div>
           
+
+            <div class="exercise__files-download">
+                <a href="https://docs.google.com/document/d/1Q0tPRcHBLUN5u9k5gG2BHpzlsMGbz0H9fJLPSAbK94M/edit?usp=sharing" target="_blank">
+                    EM3 IEEE Report (.docx)
+                </a>
+
+                <a href="https://colab.research.google.com/drive/1xE90YI9LCcdexdSleTTI3lTfCBq1RWtd?usp=sharing" target="_blank">
+                    EM3 Exercise IPYNB (.ipynb)
+                </a>
+                
+                <a href="https://docs.google.com/spreadsheets/d/11re-n2F5csZNZsPWmVeADYyl-agEuCFH/edit?usp=sharing&ouid=113678918021033939680&rtpof=true&sd=true" target="_blank">
+                    EM3 Exercise Experimentation Logs (.xlsx)
+                </a>
+            </div>
+
             <div class="exercise__reflection">
                 <div class="exercise__first-row">
-                    <h2 class="exercise__title">Exercise 3: <span>NLP Text Representation (Week 3)</span></h2>
+                    <h2 class="exercise__title">Exercise Midterm #3: <span>Building BERT-Based QnA System (Week 10)</span></h2>
 
                     <ul class="exercise3__learnings">
                         <li>
-                            In this Exercise,  studied topics from <b>Lecture 3 (NLP Text Representation) and Lecture 4 (Practical NLP Application Models)</b>. 
-
+                            In this exercise, this is my hands-on experience of Bidirectional Encoder Representations from Transformers (BERT). I learned how to extract precise answers from the provided article by using pre-trained model. Starting with, Environment setup to ensure the the reproducibility and functionality of the experiment, the initial step involved the installation of essential Python libraries required for Natural Language Processing. This make me realize that I need a suitable environment before the application of BERT. 
                         </li>
 
                         <li>
-                            <b>From lecture 3</b>, I learned about the basic fundamentals of Text Representation, which it involves transforming text into a numerical representation that algorithms can comprehend while limiting bias. This conversion is necessary because most of the machine learning algorithms require a numerical inputs to understand and process it. I learned common text representation techniques including One-Hot Encoding, Bag-of-Words, and TF-IDF (Term Frequency Inverse Document Frequency). 
+                            I also learned how to select suitable transformer-based models for extractive Question and Answering, including BERT-base-cased, DistilBERT-base-cased, and Electra-base-SQuAD2. Through experimentation, I observed that BERT-base-cased performed the best, accurately capturing answers based on the context of the questions. DistilBERT provided faster inference times but often produced less accurate answers, while Electra was less precise compared to BERT-base-cased.
                         </li>
 
                         <li>
-                            <b>In Lecture 4:</b>, I focused on practical NLP applications, which involves the use of NLP techniques and models to solve real-word problems and provide value in various domains. For example, Text Classification that involves categorizing text data into predefined categories or labels. I discovered that this task has a wide range of practical applications across various industries, the common algorithms that used to build text classification are Naive Bayes, Support Vector machines (SVM), Decision Trees, and Deep Learning techniques such as Convolutional Neural Networks (CNNs).
-
+                            The most important aspect I learned from this exercise was evaluating each BERT model using different metrics, including F1-Score, Exact Match, and Average Inference Time, to compare their performance and suitability for the Question and Answering task.
                         </li>
 
                         <li>
-                            In completing this laboratory exercise, I followed the notebook provided by Mr. Raga and made modifications to the code to improve the interpretation of numerical representations. I also researched various techniques—including One-Hot Encoding, Bag-of-Words, TF-IDF, and Word Embeddings to better understand their strengths and limitations. Additionally, I watched YouTube tutorials that demonstrated practical implementations of these methods, which allowed me to apply the concepts in simple case scenarios. 
-                        </li>
-
-                        <li>
-                            Ultimately, this exercise gave me hands-on experience with the text representation, which helps me clearly understand the importance of text representation in NLP tasks. Converting text into a numerical representation that allows computer to understand it efficiently. I realize skipping this process might have a huge impact on building a model, which leads to poor performance.
+                            This exercise, made me realized how crucial quantitative evaluation is for validating machine learning models. This skill will help me as a future data analyst and data engineer, where assessing analyzing the data and assessing model performance is crucial, ensuring reliability, and interpreting results accurately are key responsibilities when building data-driven solutions
                         </li>
                     </ul>
                 </div>

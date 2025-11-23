@@ -112,6 +112,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 4em;
+
 }
 
 .exercise3__learnings {
@@ -119,7 +120,6 @@ body {
     flex-direction: column;
     line-height: 1.3em;
     flex-wrap: wrap;    
-
 }
 
 .exercise3__learnings li, .exercise2__learnings li {
@@ -127,4 +127,11 @@ body {
     padding: 0.5rem;
 }
 
+.exercise__files-download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    gap: .5em;
+}
 
