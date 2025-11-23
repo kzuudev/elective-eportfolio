@@ -100,6 +100,8 @@ body {
     gap: 1em;
 }
 
+
+
 .exercise__img-container {
     width: 100%;
     display: flex;
@@ -107,7 +109,31 @@ body {
     margin-top: 2em;
 }
 
-.prelim-img {
-   width: 1050px;
+.final__title {
+    margin-bottom: 1rem;
+}
 
+.final__reflection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+
+}
+
+.final__learnings {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3em;
+    flex-wrap: wrap;    
+}
+
+.final__learnings li{
+    max-width: 100%;   
+    padding: 0.5rem;
+}
+
+
+.assignment-img {
+    width: 800px;
 }
