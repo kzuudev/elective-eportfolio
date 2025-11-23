@@ -121,3 +121,30 @@ body {
     margin-top: 2em;
     gap: .5em;
 }
+
+.visual_evidence {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    gap: 1.5em;
+}
+
+.visual_evidence-first-row, .visual_evidence-second-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.visual_evidence h2 {
+    font-size: var(--font-size-500);
+}
+
+.visual_evidence img {
+    width: 820px;
+}
+
+.visual__evidence-image-container {
+    display: flex;
+    justify-content: center;
+}
