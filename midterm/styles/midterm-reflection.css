@@ -82,23 +82,6 @@ body {
     margin-block: 3rem;
 }
 
-.prelim__reflection {
-    width: 100%;
-    margin-top: 4em;
-}
-
-.reflection__title {
-    font-size: var(--font-size-500);
-    margin-bottom: 1em;
-}
-
-.reflection__text {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.3em;
-    flex-wrap: wrap; 
-    gap: 1em;
-}
 
 .exercise__img-container {
     width: 100%;
@@ -107,7 +90,34 @@ body {
     margin-top: 2em;
 }
 
-.prelim-img {
-   width: 1050px;
+.midterm__title {
+    margin-bottom: 1rem;
+}
+
+.midterm__reflection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
 
 }
+
+.midterm__learnings {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3em;
+    flex-wrap: wrap;    
+}
+
+.midterm__learnings li{
+    max-width: 100%;   
+    padding: 0.5rem;
+}
+
+
+.assignment-img {
+    width: 800px;
+}
+
+
+
