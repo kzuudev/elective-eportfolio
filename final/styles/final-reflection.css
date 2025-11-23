@@ -113,6 +113,10 @@ body {
     margin-bottom: 1rem;
 }
 
+.acknowledge__title {
+    margin-top: 1em;
+}
+
 .final__reflection {
     width: 100%;
     display: flex;
@@ -121,14 +125,14 @@ body {
 
 }
 
-.final__learnings {
+.final__learnings, .final__acknowledge{
     display: flex;
     flex-direction: column;
     line-height: 1.3em;
     flex-wrap: wrap;    
 }
 
-.final__learnings li{
+.final__learnings li, .final__acknowledge li {
     max-width: 100%;   
     padding: 0.5rem;
 }
