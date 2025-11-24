@@ -104,18 +104,26 @@ body {
 }
 
 .navbar__link {
-   width: 100%;
+   /* width: 450px; */
+ 
 }
 
 .navbar__link a {
     width: 400px;
     display: block;
-    text-align: center;
-    padding-block: 4em;
+    font-size: var(--font-size-500);
+    margin-top: 1em;
+    padding-block: 2em;
     padding-inline: 2em;
     background-color: var(--white);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
     border-radius: .5rem;
+}
+
+.navbar__link p {
+    font-size: var(--font-size-200);
+    color: gray;
+    margin-top: .75em;
 }
 
 .navbar__link:hover {
@@ -124,6 +132,12 @@ body {
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
+.icon {
+    width: 50px;
+    display: block;
+    font-size: 1.8rem;  
+    margin-bottom: 1em;
+}
 
 
 
