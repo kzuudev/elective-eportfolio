@@ -125,6 +125,17 @@ body {
     max-width: 45%;
 }
 
+.pipeline__img-container {
+    width: 100%;
+    display: block;
+    justify-content: center ;
+    margin-block: 1em;
+}
+
+.pipeline__img {
+    width: 20%;
+}
+
 
 .exercise1__learnings, .exercise2__learnings {
     display: flex;

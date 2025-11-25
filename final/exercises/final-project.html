@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise F1: Final Project Proposal (Week 14)</title>
-    <link rel="stylesheet" href="../styles/exercise1.css">
+    <link rel="stylesheet" href="../styles/exercise4.css">
 </head>
 <body>
     <main class="content">
@@ -56,11 +56,28 @@
                         <li>
                             Finally, presenting our study proposal was an eye-opening experience. It helped me build confidence in speaking in front of a large audience, including my professor. Through this process, I discovered my potential for leadership and learned the importance of clear communication, teamwork, and thorough preparation in research-based projects.
                         </li>
-                
-                        <li>
-                         <b>Overall</b>, this first final exercise is just the tip of the iceberg for me. At first, I doubted myself and my ability to lead our final project and turn our idea into a real-world application. However, through collaboration and brainstorming with my groupmates, we were able to transform a theoretical research concept into a practical solution for an education problem, specifically to Machine Learning Course. From planning and structuring our approach to executing each step with purposem this experience and learnings allowed me to grow both academically and personally. It marked the beginning of my confidence as leader and strengthened my belief that I am capable of contributing meaningfully to real-world projects.
-                        </li>
                     </ul>
+
+                    <ul class="pipeline__learnings">
+                        <div class="pipeline__img-container">
+                            <img class="pipeline__img" src="./images/Final Project Submission/fppipeline.png" alt="">
+                        </div>
+                        
+                        <li>
+                            Based on our Final Project Pipeline, it beings with a <b>Setup Data Preparation</b> where we insert out Webscraped Data and transform it to unstructured educational content. We tackled two significant challenges inherent NLP training, abstract answers and long document contexts—by implementing a dual-strategy preprocessing techniques. First, we integrated a <i>SentenceTransformers</i> to perform semantic alignments, this allowed us to salvage training examples where the answer wasn't an exact substring by locating the most semantically relevant sentence within the context. Second, we applied sliding windows tokenization a 128-token stride, effectively slicing long documents into manageable chunks withoug losing critical information at the boundaries. This rigorously prepared data was then fed into a <i>bert-base-uncased</i> model, fine-tuned within a fully reproducible environment where we locked every random seed to ensure our training results were stable, consistent, and scientifically valid.
+                        </li>
+                
+
+                        <li>
+                            Beyond thet training phase,  we redefined how model performance is measured and delivered to the end-user. Instead of relying solely on standard loss functions, we evaluated our model using what we call the "Holy Trinity" of QA metrics: Exact Match for precision, F1 Score for partial overlap, and Semantic Similarity to capture the true intent behind a predicted answer. This comprehensive evaluation logic serves as the backbone of our deployment layer, a fully interactive Gradio application. In this interface, users can engage in "Quiz" or "Exam" modes across specific topics like Linear Regression or Neural Networks. Crucially, the system acts as an intelligent tutor; it doesn't merely check for keyword matches but embeds the student's input to compare it against the ground truth, offering nuance-aware feedback that recognizes when a student understands a concept even if their wording differs from the textbook.
+                        </li>
+                        
+                        <li>
+                            <b>Overall</b>, this first final exercise is just the tip of the iceberg for me. At first, I doubted myself and my ability to lead our final project and turn our idea into a real-world application. However, through collaboration and brainstorming with my groupmates, we were able to transform a theoretical research concept into a practical solution for an education problem, specifically to Machine Learning Course. From planning and structuring our approach to executing each step with purposem this experience and learnings allowed me to grow both academically and personally. It marked the beginning of my confidence as leader and strengthened my belief that I am capable of contributing meaningfully to real-world projects.
+                        </li>
+
+                    </ul>
+                   
                 </div>
             </div> 
         </div>
